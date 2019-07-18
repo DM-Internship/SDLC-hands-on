@@ -8,11 +8,19 @@ import { AppComponent } from './app.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './services/in-memory-data.service';
 import { PreviewComponentComponent } from './components/demo/preview-component/preview-component.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { SingersListComponent } from './components/singers-list/singers-list.component';
+import { BandsListComponent } from './components/bands-list/bands-list.component';
+import { PanelComponent } from './components/panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PreviewComponentComponent
+    PreviewComponentComponent,
+    MenuComponent,
+    SingersListComponent,
+    BandsListComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
