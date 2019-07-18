@@ -4,6 +4,8 @@ import { InMemoryDbService } from 'angular-in-memory-web-api';
   providedIn: 'root'
 })
 export class DBSingersService implements InMemoryDbService {
+  createDb() {
+  }
 
   constructor() { }
 }
